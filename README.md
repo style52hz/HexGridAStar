@@ -27,4 +27,4 @@ as described in the accompanying paper.
 To run a simple test case:
 
 ```bash
-python examples/quick_test.py
+python hexagonal_grid_version1.py
