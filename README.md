@@ -1,34 +1,24 @@
+# HDTA*: Hexagonal-grid Density-aware Turning-penalized A* 
 
+This repository provides an open-source reference implementation of **HDTA\*** for the manuscript:
 
-# HexGridAStar
-echo "# HexGridAStar" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/style52hz/HexGridAStar.git
-git push -u origin main
- Obstacle Density-Aware A* Path Planning on Hexagonal Grids
+**“An Enhanced A-Star Algorithm with Obstacle Density Awareness for Hexagonal Grid-Based Off-Road Path Planning”**
 
-This repository provides a reference implementation of the enhanced A* algorithm
-with obstacle density awareness for hexagonal grid-based off-road path planning,
-as described in the accompanying paper.
+## What is included
+- Core planner (hex grid, density-aware heuristic scaling, turning penalty)
+- Original interactive/visualization scripts used during development (kept under `scripts/`)
 
-## Requirements
-geopandas==0.14.0
-matplotlib==3.7.1
-numpy==1.24.3
-rasterio==1.3.11
-Shapely==2.1.2
+## Quick start
 
-
-## Repository Structure
-- src/: core algorithm implementation
-- examples/: quick test scripts
-- data/: demo input data
-
-## Quick Test
-To run a simple test case:
-
+### 1) Create a clean Python environment
 ```bash
-python hexagonal_grid_version1.py
+pip install -r requirements.txt
+
+
+
+
+## License
+This project is released under the **MIT License** (see `LICENSE`).
+
+## Contact
+For questions about the code or reproduction, please contact the corresponding author listed in the manuscript.
