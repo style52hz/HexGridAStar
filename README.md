@@ -15,8 +15,12 @@ with obstacle density awareness for hexagonal grid-based off-road path planning,
 as described in the accompanying paper.
 
 ## Requirements
-- Python 3.8+
-- numpy
+geopandas==0.14.0
+matplotlib==3.7.1
+numpy==1.24.3
+rasterio==1.3.11
+Shapely==2.1.2
+
 
 ## Repository Structure
 - src/: core algorithm implementation
