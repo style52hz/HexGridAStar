@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "HDTA*: Hexagonal-grid Density-aware Turning-penalized A*"
+authors:
+  - family-names: "Meng"
+    given-names: "Lin"
+date-released: 2025-11-2
+license: "MIT"
+repository-code: https://github.com/style52hz/HexGridAStar

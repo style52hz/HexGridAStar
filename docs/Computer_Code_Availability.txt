@@ -1,0 +1,9 @@
+Computer Code Availability
+
+Code name: HDTA* – Hexagonal-grid Density-aware Turning-penalized A* Algorithm
+Version: v1.0
+License: MIT License (https://opensource.org/licenses/MIT)
+
+The source code developed and used in this study is openly available in a public repository and can be accessed anonymously. The repository provides the core implementation, a quick-test example for verification, and documentation to reproduce the main results.
+
+Repository link (public): https://github.com/style52hz/HexGridAStar
